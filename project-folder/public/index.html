@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Table</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMpku7FtEln1bu5qQ8gxrCuB/ZGp5Gs6+EdfwE3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Ano</th>
+            <th>Número de Identificação</th>
+            <th>Objeto da Contratação</th>
+            <th>Unidade</th>
+            <th>Quantidade de Itens</th>
+            <th>Prioridade</th>
+            <th>Valor</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025</td>
+            <td>PCA.107</td>
+            <td>Renovação de licença</td>
+            <td>STIC</td>
+            <td>1</td>
+            <td>3 - Média</td>
+            <td>R$ 10.000,00</td>
+            <td class="action-buttons">
+              <button class="btn view" title="Visualizar">
+                <i class="fas fa-eye"></i>
+              </button>
+              <button class="btn approve" title="Aprovar">
+                <i class="fas fa-thumbs-up"></i>
+              </button>
+              <button class="btn reject" title="Rejeitar">
+                <i class="fas fa-thumbs-down"></i>
+              </button>
+              <button class="btn justify" title="Justificar">
+                <i class="fas fa-comment"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
